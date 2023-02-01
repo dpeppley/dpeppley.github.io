@@ -1,46 +1,89 @@
-.rainbow {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 64px;
-    margin: 0;
-    animation: rainbow 5s linear;
-    animation-iteration-count: infinite;
+a {
+  color: #002;
+  text-decoration: none;
 }
 
-@keyframes rainbow {
-    100%,0%{
-        color: rgba(255, 0, 0);
-    }
-    8%{
-        color: rgb(255,127,0);
-    }
-    16%{
-        color: rgb(255,255,0);
-    }
-    25%{
-        color: rgb(127,255,0);
-    }
-    33%{
-        color: rgb(0,255,0);
-    }
-    41%{
-        color: rgb(0,255,127);
-    }
-    50%{
-        color: rgb(0,255,255);
-    }
-    58%{
-        color: rgb(0,127,255);
-    }
-    66%{
-        color: rgb(0,0,255);
-    }
-    75%{
-        color: rgb(127,0,255);
-    }
-    83%{
-        color: rgb(255,0,255);
-    }
-    91%{
-        color: rgb(255,0,127);
-    }
+button {
+  border: none;
+  background-color: #ececf7;
+  padding: 6px 36px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 3px 3px #939399;
+}
+
+button:hover {
+  background-color: #939399;
+  /* background-image: url("/images/Final_Colored.png"); */
+  color: #ececf7;
+  box-shadow: -1px -1px #939399;
+}
+
+img {
+  width: 80%;
+}
+
+body {
+  color: #002;
+  background-image: url("images/Final_Colored.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #ECECF7;
+  font-family: acumin-pro, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0%;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  font-variant: small-caps;
+}
+
+h3 {
+  font-variant: small-caps;
+}
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 10px 80px;
+}
+
+.center-container {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%; 
+  background: linear-gradient(180deg, #ECECF700 0%, #ECECF7 60%);
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  height: 100%;
+}
+
+.main-title {
+  font-weight: 200;
+}
+
+.row {
+  padding: 10px;
+}
+
+.footer {
+  padding: 10px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
 }
