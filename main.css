@@ -18,7 +18,6 @@ button {
 
 button:hover {
   background-color: #939399;
-  /* background-image: url("/images/Final_Colored.png"); */
   color: #ececf7;
   box-shadow: -1px -1px #939399;
 }
@@ -29,7 +28,7 @@ img {
 
 body {
   color: #002;
-  background-image: url("images/Final_Colored.png");
+  background-image: url("images/Background.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: #ECECF7;
@@ -57,7 +56,6 @@ h3 {
 p {
   font-size: 18px;
   line-height: 24px;
-  margin: 10px 80px;
 }
 
 .center-container {
@@ -83,6 +81,7 @@ p {
 .footer {
   padding: 10px;
   position: absolute;
+  /* position: fixed; */
   bottom: 0%;
   left: 0%;
   right: 0%;
