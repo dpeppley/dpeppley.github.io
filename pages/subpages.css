@@ -14,10 +14,20 @@ h3 {
     text-align: center;
 }
 
+.artifact-card {
+    background-color: #9A9A9A;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+    height: 100%;
+    text-align: left;
+}
 
 .center-container {
     background: none;
     text-align: center;
+    position: relative;
+    margin: 50px;
 }
 
 .access-link {
