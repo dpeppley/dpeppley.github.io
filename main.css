@@ -3,6 +3,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #ececf7;
+}
+
 button {
   border: none;
   background-color: #ececf7;

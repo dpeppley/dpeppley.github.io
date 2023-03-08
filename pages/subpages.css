@@ -2,6 +2,10 @@ body {
     background-image: none;
 }
 
+button {
+    background-color: #b9b9c0;
+}
+
 p {
     margin: auto;
 }
