@@ -6,6 +6,11 @@ button {
     background-color: #b9b9c0;
 }
 
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
 p {
     margin: auto;
 }
@@ -25,6 +30,8 @@ h3 {
     padding: 15px;
     height: 100%;
     text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .center-container {
@@ -32,7 +39,7 @@ h3 {
     text-align: center;
     position: relative;
     padding: 0px 20px;
-    /* margin: 50px; */
+    margin: 50px;
 }
 
 .access-link {
