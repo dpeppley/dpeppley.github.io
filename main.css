@@ -89,7 +89,8 @@ p {
 }
 
 .main-title {
-  font-weight: 200;
+  font-weight: 600;
+  font-size: 72px;
 }
 
 .row {
