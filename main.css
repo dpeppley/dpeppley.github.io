@@ -74,6 +74,7 @@ p {
   text-align: center;
   height: 100%;
 }
+
 .subpages {
   position:relative;
   left: 0%;
@@ -103,10 +104,24 @@ p {
 }
 
 .footer {
-  padding: 10px;
+  padding-top: 10px;
   position: fixed;
   bottom: 0%;
   left: 0%;
   right: 0%;
   background-color: #ECECEC;
+}
+
+.artifact-row {
+  margin: 16px;
+}
+
+.artifact-card {
+  background-color: #8f8f9b;
+  border-radius: 10px;
+  padding: 12px;
+  height: 100%;
+  text-align: left;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }

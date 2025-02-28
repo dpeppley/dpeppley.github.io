@@ -26,6 +26,7 @@ h3 {
 
 .artifact-row {
     margin: 16px;
+    background-color: aqua;
 }
 
 .artifact-card {
